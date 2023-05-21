@@ -49,6 +49,9 @@ First Approach (via GUI):
 Note- I deployed both the best model and another model. The best model deployment takes a lot of time and deployment state was healthy momentarily and then changed to unhealthy. Therefore, I used the one of the other models from the AutoML run , with comparable AUC as the best model, in the subsequent steps
 
 5)	Enable Application insights in the deployed model by running logs.py script in CLI
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/aa08fdc7-3097-43ec-af92-9aeaf72389c0)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/d9b50b51-6c9c-48e1-a592-275d782141f0)
+
 
 6) ![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/3cd54c25-0978-4b3f-92fc-96eb8d294a95)
 
