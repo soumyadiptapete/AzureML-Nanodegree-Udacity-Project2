@@ -106,7 +106,8 @@ Completion of automl run in RunDetails
 
 
 13) check the new run in the AzureML studio. Shown in red box in below screenshot
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/e719c22b-09d7-45ce-a383-6f1468759a7d)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/73e054c0-40b8-4fa5-8158-29fab055307a)
+
 
 
 ## Screen Recording
