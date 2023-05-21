@@ -87,7 +87,8 @@ Second Approach (via pipeline in Jupyter notebook)
 ![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/8084d559-e2b1-4516-999c-659616f4ebd0)
 
 10) Get the rest endpoint of the published pipeline and authentication header 
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/36d841ff-2efb-4fce-9a8b-beb80f7815f0)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/419bc762-5ee5-4281-9f9f-2032e1812f13)
+
 
 11) Call the rest endpoint to submit the pipeline run as a new experiment
 
