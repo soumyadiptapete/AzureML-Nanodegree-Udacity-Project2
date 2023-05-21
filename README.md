@@ -10,6 +10,7 @@ The other approach involved creating, publishing, and running and AutoML pipelin
 ## Architectural Diagram
 Approach 1 (Via AzureML GUI)
 
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/adb4674e-833f-4224-827a-bff9609b24e7)
 
 
 
