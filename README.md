@@ -16,7 +16,8 @@ Approach 1 (Via AzureML GUI)
 
 Approach 2 (Via pipeline in Jupyter notebook)
 
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/4fa32b76-65ea-42c1-872a-426561b4b5dd)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/92c12cc1-1951-41e5-8b53-daa64f2f1bef)
+
 
 
 ## Future Improvements
