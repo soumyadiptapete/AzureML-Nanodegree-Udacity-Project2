@@ -87,7 +87,7 @@ Second Approach (via pipeline in Jupyter notebook)
 ![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/8084d559-e2b1-4516-999c-659616f4ebd0)
 
 10) Get the rest endpoint of the published pipeline and authentication header 
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/3c8d0c8d-02c6-4364-87cf-6323eb2ef44a)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/36d841ff-2efb-4fce-9a8b-beb80f7815f0)
 
 11) Call the rest endpoint to submit the pipeline run as a new experiment
 
@@ -95,7 +95,8 @@ Second Approach (via pipeline in Jupyter notebook)
 ![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/ff9312f2-363d-4f4b-b881-2fb96e2ed461)
 
 RunDetails of pipeline run
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/dc286d86-e614-4c86-b712-8d3bb9cf021b)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/07d2bdc2-e43f-42e1-ae79-4a33190b4074)
+
 Completion of automl run in RunDetails
 ![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/78297f5e-0ba3-46a3-9fdd-845d23efe69e)
 
