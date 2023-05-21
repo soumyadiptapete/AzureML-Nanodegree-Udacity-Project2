@@ -10,12 +10,13 @@ The other approach involved creating, publishing, and running and AutoML pipelin
 ## Architectural Diagram
 Approach 1 (Via AzureML GUI)
 
-![image](https://github.com/soumyadiptapete/udacity-azureml-project2/assets/20270621/ca449807-ab0e-40c2-94f9-6c508a4d3c1b)
+
 
 
 Approach 2 (Via pipeline in Jupyter notebook)
 
-![image](https://github.com/soumyadiptapete/udacity-azureml-project2/assets/20270621/22854337-3739-40fd-ba9b-6127889b3a4f)
+
+
 
 
 ## Future Improvements
