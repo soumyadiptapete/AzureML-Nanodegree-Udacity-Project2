@@ -28,40 +28,47 @@ Approach 2 (Via pipeline in Jupyter notebook)
 First Approach (via GUI):
 1)	Upload dataset and register it
 
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/3f7b9e0a-530d-484f-98f0-a0dc73e05ac3)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/3de514d9-294f-4110-b4a6-3239bbbb903d)
+
 
 
 
 2)	Create and submit an AutoML run
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/a9a0c49c-37d5-40ca-bf24-a77eed383449)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/c8f9820f-b9e4-4555-8ca9-e526b1f40f2d)
+
 
 
 
 3)	Check the best model in the AutoML run in terms of AUC
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/3e67089f-c7f8-47ca-b8f3-516c29553d85)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/407ccb09-b575-4c4f-8b7d-b9492010de0e)
+
 
 
 4)	Deploy the best model as a webservice using ACI and authentication enabled
 
 Note- I deployed both the best model and another model. The best model deployment takes a lot of time and deployment state was healthy momentarily and then changed to unhealthy. Therefore, I used the one of the other models from the AutoML run , with comparable AUC as the best model, in the subsequent steps
 5)	Enable Application insights in the deployed model by running logs.py script in CLI
-6)![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/efef937b-2c56-4251-a131-392c0632e088)
+6)![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/3cd54c25-0978-4b3f-92fc-96eb8d294a95)
+
 
 
 7)	Download the swagger.json file from the endpoints section of the deployed model. Visualize the methods in the file by using swaggerUI
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/203687bf-dcb8-4feb-8ad3-5669fcbfae14)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/8a6a4300-d0a1-43ee-9044-da8a26e14d15)
+
 
 
 
 8)	Test the deployed model by using the endpoint.py where a JSON payload is sent to the deployed model and yes/no responses are sent back
 
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/18af8304-8808-436f-a62e-bc01a58392a6)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/8daedadd-b855-4315-9a69-10abf3144cd2)
+
 
 
 
 9) Benchmark the model using the apache benchmark tool using the benchmrk.sh script. IT basically sends multiple scoring requests to the deployed mdoel and returns a set of metrics for these multiple calls 
 
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/bfddb280-7611-4a44-993c-b17dc672336a)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/296a91a3-5f81-4acc-8ff2-8a8d5bdd8a19)
+
 
 Second Approach (via pipeline in Jupyter notebook)
 1) get workspace
@@ -70,34 +77,32 @@ Second Approach (via pipeline in Jupyter notebook)
 4) Create an AutoML step. The AutoML step will contain outputs in form of metrics of AutoML runs and the best model by AutoML
 5) Create a Pipeline and include the AutoML step as the pipeline steps
 6) Run the pipeline
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/abf7394c-9f1e-4e3e-94b3-8ebdcd6fcb96)
-
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/b0bf484a-5a71-43d4-915e-13da097d2ea6)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/18189ca0-37c2-44fb-b9c1-ca822b277ce4)
 
 7) Visualize the metrics for all runs
 8) Retrieve the best model and test it.
 9) Publish the pipeline
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/94808603-4f86-48d0-a956-5a8b9c792d0e)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/8084d559-e2b1-4516-999c-659616f4ebd0)
 
 10) Get the rest endpoint of the published pipeline and authentication header 
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/de7e6260-1a2f-446c-a4b3-af72e9217831)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/3c8d0c8d-02c6-4364-87cf-6323eb2ef44a)
 
 11) Call the rest endpoint to submit the pipeline run as a new experiment
 
 12) Get the run id of the new pipeline and check the run details
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/bf99ea25-67f5-41ea-84a9-528dbce75cae)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/ff9312f2-363d-4f4b-b881-2fb96e2ed461)
 
 RunDetails of pipeline run
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/efcb2de0-ecd6-4ec8-b049-d426aa90e916)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/dc286d86-e614-4c86-b712-8d3bb9cf021b)
 Completion of automl run in RunDetails
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/88730533-f6e4-4a0d-944f-d01473766b50)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/78297f5e-0ba3-46a3-9fdd-845d23efe69e)
 
 
 
 
 
 13) check the new run in the AzureML studio. Shown in red box in below screenshot
-![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/84b69652-291f-4c28-81f2-996ece6726d7)
+![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/e719c22b-09d7-45ce-a383-6f1468759a7d)
 
 
 ## Screen Recording
