@@ -47,8 +47,10 @@ First Approach (via GUI):
 4)	Deploy the best model as a webservice using ACI and authentication enabled
 
 Note- I deployed both the best model and another model. The best model deployment takes a lot of time and deployment state was healthy momentarily and then changed to unhealthy. Therefore, I used the one of the other models from the AutoML run , with comparable AUC as the best model, in the subsequent steps
+
 5)	Enable Application insights in the deployed model by running logs.py script in CLI
-6)![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/3cd54c25-0978-4b3f-92fc-96eb8d294a95)
+
+6) ![image](https://github.com/soumyadiptapete/AzureML-Nanodegree-Udacity-Project2/assets/20270621/3cd54c25-0978-4b3f-92fc-96eb8d294a95)
 
 
 
